@@ -8,4 +8,4 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: build-package
-        uses: - echo -n CommonEpisilia  | docker login --username epcommon --password-stdin
+        uses: echo -n CommonEpisilia  | docker login --username epcommon --password-stdin
